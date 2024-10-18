@@ -1,0 +1,24 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/api.restful-api.dev/objects",
+      "bodyPatterns": [
+        {
+          "matchesJsonPath": "$[?(@.name)]"
+        },
+        {
+          "matchesJsonPath": "$[?(@.color == 'fusca')]"
+        },
+        {
+          "matchesJsonPath": "$[?(@.year)]"
+        }
+      ]
+    },
+    "response": {
+      "status": 200,
+      "body": "{ \"message\": \"Car successfully registered!\", \"id\": 6 }",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
