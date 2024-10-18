@@ -2,7 +2,7 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 
 export default function () {
-  const url = '/api.restful-api.dev/objects';  // URL da sua API simulada no Wiremock
+  const url = 'https://api.restful-api.dev/objects';  // URL da sua API simulada no Wiremock
   
   const payload = JSON.stringify({
     brand: 'Apple iPhone 11, 64GB',

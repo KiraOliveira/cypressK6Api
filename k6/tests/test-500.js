@@ -8,7 +8,7 @@ export const options = {
 };
 
 export default function () {
-  const url = '/api.restful-api.dev/objects';  // URL da sua API simulada no Wiremock
+  const url = 'https://api.restful-api.dev/objects';  // URL da sua API simulada no Wiremock
 
   const payload = JSON.stringify({
     name: 'Apple iPhone 12 Pro Max',

@@ -1,7 +1,7 @@
 {
     "request": {
       "method": "GET",
-      "url": "/api.restful-api.dev/objects"
+      "url": "https://api.restful-api.dev/objects"
     },
     "response": {
       "status": 200,
